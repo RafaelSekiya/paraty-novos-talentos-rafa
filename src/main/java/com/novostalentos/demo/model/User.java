@@ -7,19 +7,19 @@ import javax.persistence.*;
 @Getter
 @Setter
 @Entity
-public classUser {
+public class User {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
+@Id
+@GeneratedValue(strategy = GenerationType.AUTO)
+private int id;
 
-    @Column(name = "NOME")
-    private String name;
+@Column(name = "NOME")
+private String name;
 
-    @Column(name = "IDADE")
-    private int idade;
+@Column(name = "IDADE")
+private int idade;
 
-    @Column(name = "EMAIL")
-    private String email;
+@Column(name = "EMAIL")
+private String email;
 
 }
