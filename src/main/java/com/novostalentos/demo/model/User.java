@@ -11,15 +11,15 @@ public class User {
 
 @Id
 @GeneratedValue(strategy = GenerationType.AUTO)
-private int id;
+private int Id;
 
 @Column(name = "NOME")
-private String name;
+private String Name;
 
 @Column(name = "IDADE")
-private int idade;
+private int Idade;
 
 @Column(name = "EMAIL")
-private String email;
+private String Email;
 
 }
